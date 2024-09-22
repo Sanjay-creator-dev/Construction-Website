@@ -76,3 +76,6 @@ document.addEventListener("DOMContentLoaded", () => {
     counter("count4", 0, 30, 3000);
 })
 
+function googleTranslateElementInit() {
+    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+}

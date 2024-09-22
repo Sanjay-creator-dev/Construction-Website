@@ -102,6 +102,16 @@ img {
   /* Optional: Hide the dropdown arrow */
 }
 
+/* Hide Google Translate Toolbar */
+.goog-logo-link,
+.goog-te-banner-frame,
+.goog-te-gadget span {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  font-size: 0px !important;
+}
 
 
 
