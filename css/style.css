@@ -1,261 +1,297 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100;400;500;600;700&display=swap');
 
 html {
-    scroll-behavior: smooth;
-  }
-  
-body{
-    font-family: "Barlow", sans-serif;
-    line-height: 1.7;
-    color: #516171;
+  scroll-behavior: smooth;
 }
 
-h1,h2,h3,h4,h5,h6{
-    font-weight: 700 !important;
-    color: #092032;
+body {
+  font-family: "Barlow", sans-serif;
+  line-height: 1.7;
+  color: #516171;
 }
 
-a{
-    color: #092032;
-    text-decoration: none;
-    transition: all 0.4s ease;
-    font-weight: 500;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700 !important;
+  color: #092032;
 }
 
-img{
-    width: 100%;
+a {
+  color: #092032;
+  text-decoration: none;
+  transition: all 0.4s ease;
+  font-weight: 500;
 }
-.bg-cover{
-    background-position: center !important;
-    background-size: cover !important;
-    background-position: center !important;
+
+img {
+  width: 100%;
+}
+
+.bg-cover {
+  background-position: center !important;
+  background-size: cover !important;
+  background-position: center !important;
 }
 
 
 /* navbar  */
 
-.top-nav{
-    background-color: #226638;
-padding-top: 5px;
-padding-bottom: 5px;
-}
-.top-nav p{
-    margin-bottom: 0;
-    display: inline-block;
-    margin-right: 16px;
-    color: #fff;
-}
-.top-nav i, .top-nav span{
-    vertical-align: middle;
+.top-nav {
+  background-color: #226638;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
-.social-links a{
-    width: 34px;
-    height: 34px;
-    background-color: rgba(255, 255, 255, 0.3);
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 100%;
+.top-nav p {
+  margin-bottom: 0;
+  display: inline-block;
+  margin-right: 16px;
+  color: #fff;
 }
 
-.social-links a:hover{
-    background-color: #fff;
-    color: #226638;
+.top-nav i,
+.top-nav span {
+  vertical-align: middle;
 }
 
-.navbar{
-    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
-    padding: 0;
+.social-links a {
+  width: 34px;
+  height: 34px;
+  background-color: rgba(255, 255, 255, 0.3);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 100%;
+}
+
+.social-links a:hover {
+  background-color: #fff;
+  color: #226638;
+}
+
+.navbar {
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  padding: 0;
 }
 
 .navbar .navbar-nav .nav-link:hover,
-.navbar .navbar-nav .nav-link:active{
-    color: #226638;
+.navbar .navbar-nav .nav-link:active {
+  color: #226638;
 }
 
-.navbar-brand{
-    width: 100px;
-    height: 90px;
+.navbar-brand {
+  width: 100px;
+  height: 90px;
 }
 
 /* Show the dropdown on hover */
 .nav-item.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0; /* Ensures the dropdown aligns properly */
-  }
-  
-  .nav-item .dropdown-toggle::after {
-    display: none; /* Optional: Hide the dropdown arrow */
-  }
-  
+  display: block;
+  margin-top: 0;
+  /* Ensures the dropdown aligns properly */
+}
 
- 
+.nav-item .dropdown-toggle::after {
+  display: none;
+  /* Optional: Hide the dropdown arrow */
+}
+
+
+
 
 /* BTN */
-.btn{
-    padding: 9px 24px;
-    font-weight: 500;
-}
-.btn-brand{
-   background-color: #226638;
-   color: #fff;
-   border-color: #226638;
+.btn {
+  padding: 9px 24px;
+  font-weight: 500;
 }
 
-.btn-brand:hover{
-    color: #226638;
-    background-color: transparent;
-    border: 1px solid #226638;
+.btn-brand {
+  background-color: #226638;
+  color: #fff;
+  border-color: #226638;
+}
+
+.btn-brand:hover {
+  color: #226638;
+  background-color: transparent;
+  border: 1px solid #226638;
 }
 
 /* Slider  */
-.slide1{
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slide1.jpg);
+.slide1 {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slide1.jpg);
 }
-.slide2{
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Excavation.jpg);
+
+.slide2 {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Excavation.jpg);
 }
-.slide3{
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Backfilling.jpg);
+
+.slide3 {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Backfilling.jpg);
 }
-.slide4{
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Civil.jpg);
+
+.slide4 {
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Civil.jpg);
 }
 
 /* Owl Carousel */
-.owl-prev, .owl-next{
-   position: absolute;
-   top: 50%;
-   width: 30px !important;
-   height: 60px !important;
-   display: grid;
-   place-items: center;
-   background-color: rgba(34,102,56, 0.8) !important;
-   color: #fff !important;
-   margin-top: -30px !important;
+.owl-prev,
+.owl-next {
+  position: absolute;
+  top: 50%;
+  width: 30px !important;
+  height: 60px !important;
+  display: grid;
+  place-items: center;
+  background-color: rgba(34, 102, 56, 0.8) !important;
+  color: #fff !important;
+  margin-top: -30px !important;
 }
 
-.owl-prev{
-    left: 0;
+.owl-prev {
+  left: 0;
 }
 
- .owl-next{
-    right: 0;
- }
+.owl-next {
+  right: 0;
+}
 
- /*
+/*
 ==========================================
   counter Design
 ==========================================
 */
-.counter-section{
-    background: linear-gradient(rgba(34, 103, 56, 0.888), #226638), url(../img/Civil.jpg);
-    padding:2.5rem 0;
-  }
-  .counter-section p{
-    color:#fff;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 600;
-  }
-  #count1,#count2,#count3,#count4 {
-    color:#fff;
-    text-transform: uppercase;
-    font-size: 50px;
-    font-weight: 500;
-  }
+.counter-section {
+  background: linear-gradient(rgba(34, 103, 56, 0.888), #226638), url(../img/Civil.jpg);
+  padding: 2.5rem 0;
+}
 
-  /* Our Services Section  */
-  #services{
-    background-color: #edf7f1;
-  }
-  .intro{
-    margin-bottom: 40px; 
-  }
-  .intro h6{
-    font-weight: 400;
-    color: #226638;
-  }
-  .intro p{
-    max-width: 500px;
-    margin: auto;
-  }
+.counter-section p {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+}
 
-  .service{
-    background-color: #fff;
-    padding: 32px;
-    box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
-    text-align: center;
-  }
-  .service img{
-    width: 70px;
-  }
-  .service h5{
-    margin-top: 24px;
-    margin-bottom: 12px;
-  }
+#count1,
+#count2,
+#count3,
+#count4 {
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-weight: 500;
+}
 
-  /* OUR DIVERSIFIED TALENTS */
-  .talent{
-    position: relative;
-  }
-  .talent .overlay{
-    background: linear-gradient(to top, rgb(33, 101, 55), rgba(33, 101, 55, 0.281));
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    bottom: 0;
-    left: 0;
-  }
-  .talent .content{
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-    left: 0;
-    padding: 10px;
-  }
-  .talent h2{
-    color: #fff;
-  }
+/* Our Services Section  */
+#services {
+  background-color: #edf7f1;
+}
 
-  #reviews{
-    background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9,32,50,0.8)), url(../img/Constructionworkers.jpg);
-  }
-  .review{
-    max-width: 800px;
-    margin: auto;
-   text-align: center;
-  }
-  .person img{
-    width: 85px !important;
-    height: 85px !important;
-    border-radius: 1000px;
-    margin: auto;
-  }
-  .person h4, .review p{
-    color: #fff;
-  }
-  .person small{
-    color: #fff;
-  }
+.intro {
+  margin-bottom: 40px;
+}
+
+.intro h6 {
+  font-weight: 400;
+  color: #226638;
+}
+
+.intro p {
+  max-width: 500px;
+  margin: auto;
+}
+
+.service {
+  background-color: #fff;
+  padding: 32px;
+  box-shadow: 0px 6px 30px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.service img {
+  width: 70px;
+}
+
+.service h5 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+/* OUR DIVERSIFIED TALENTS */
+.talent {
+  position: relative;
+}
+
+.talent .overlay {
+  background: linear-gradient(to top, rgb(33, 101, 55), rgba(33, 101, 55, 0.281));
+  position: absolute;
+  width: 100%;
+  height: 60px;
+  bottom: 0;
+  left: 0;
+}
+
+.talent .content {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 10px;
+}
+
+.talent h2 {
+  color: #fff;
+}
+
+#reviews {
+  background: linear-gradient(rgba(9, 32, 50, 0.8), rgba(9, 32, 50, 0.8)), url(../img/Constructionworkers.jpg);
+}
+
+.review {
+  max-width: 800px;
+  margin: auto;
+  text-align: center;
+}
+
+.person img {
+  width: 85px !important;
+  height: 85px !important;
+  border-radius: 1000px;
+  margin: auto;
+}
+
+.person h4,
+.review p {
+  color: #fff;
+}
+
+.person small {
+  color: #fff;
+}
 
 /* Contact Details  */
-.contact-details{
+.contact-details {
   background-color: #fff;
   border: 1px solid #226638;
   display: flex;
 }
-.icon{
+
+.icon {
   font-size: 30px;
 }
-.detail{
+
+.detail {
   display: flex;
   flex-direction: row;
   gap: 20px;
@@ -264,41 +300,48 @@ padding-bottom: 5px;
 
 
 
-  /* Footer  */
-  .footer{
-    background-color: #226638;
+/* Footer  */
+.footer {
+  background-color: #226638;
+}
+
+.footer-ul {
+  font-size: 1rem;
+  color: #fff;
+  line-height: 24px;
+  position: relative;
+  margin-left: 30px;
+}
+
+.footer-ul li::before {
+  position: absolute;
+  left: -2.1875rem;
+  color: #fff;
+  font-size: 12px;
+  font-family: "Font Awesome 5 Free";
+  content: '\f00c';
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: 900;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .top-nav {
+    display: none;
   }
-  .footer-ul{
-    font-size:1rem;
-    color:#fff;
-    line-height: 24px;
-    position:relative;
-    margin-left: 30px;
-  }
-  .footer-ul  li::before{
-    position:absolute;
-    left:-2.1875rem;
-    color: #fff;
-    font-size: 12px;
-    font-family: "Font Awesome 5 Free";
-    content:'\f00c';
-    display:inline-block;
-    vertical-align:middle;
-    font-weight: 900;
+
+  .slide1,
+  .slide2,
+  .slide3,
+  .slide4 {
+    height: 50vh !important;
   }
 
-
-
-
-  @media (max-width: 767px) {
-    .top-nav{
-        display: none;
-    }
-    .slide1, .slide2, .slide3, .slide4{
-        height: 50vh !important;
-    }
-    .contact-details{
-      display: flex;
-      flex-direction: column;
-    }
+  .contact-details {
+    display: flex;
+    flex-direction: column;
+  }
 }
