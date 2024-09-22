@@ -92,6 +92,8 @@ padding-bottom: 5px;
   }
   
 
+ 
+
 /* BTN */
 .btn{
     padding: 9px 24px;
@@ -244,6 +246,24 @@ padding-bottom: 5px;
     color: #fff;
   }
 
+/* Contact Details  */
+.contact-details{
+  background-color: #fff;
+  border: 1px solid #226638;
+  display: flex;
+}
+.icon{
+  font-size: 30px;
+}
+.detail{
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+
+
+
   /* Footer  */
   .footer{
     background-color: #226638;
@@ -276,5 +296,9 @@ padding-bottom: 5px;
     }
     .slide1, .slide2, .slide3, .slide4{
         height: 50vh !important;
+    }
+    .contact-details{
+      display: flex;
+      flex-direction: column;
     }
 }
