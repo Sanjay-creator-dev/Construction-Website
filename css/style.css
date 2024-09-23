@@ -38,7 +38,11 @@ img {
 }
 
 
-/* navbar  */
+/* 
+==========================
+        navbar  
+==========================        
+*/
 
 .top-nav {
   background-color: #226638;
@@ -90,7 +94,11 @@ img {
   height: 90px;
 }
 
-/* Show the dropdown on hover */
+/* 
+=======================================
+      Show the dropdown on hover 
+=======================================
+*/
 .nav-item.dropdown:hover .dropdown-menu {
   display: block;
   margin-top: 0;
@@ -102,7 +110,11 @@ img {
   /* Optional: Hide the dropdown arrow */
 }
 
-/* Hide Google Translate Toolbar */
+/* 
+=====================================
+   Hide Google Translate Toolbar 
+=====================================
+*/
 .goog-logo-link,
 .goog-te-banner-frame,
 .goog-te-gadget span {
@@ -115,7 +127,11 @@ img {
 
 
 
-/* BTN */
+/* 
+==============================
+           BTN 
+==============================
+*/
 .btn {
   padding: 9px 24px;
   font-weight: 500;
@@ -133,7 +149,11 @@ img {
   border: 1px solid #226638;
 }
 
-/* Slider  */
+/* 
+================================
+          Slider  
+================================
+*/
 .slide1 {
   height: 100vh;
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/slide1.jpg);
@@ -154,7 +174,11 @@ img {
   background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/Civil.jpg);
 }
 
-/* Owl Carousel */
+/* 
+==============================
+      Owl Carousel 
+==============================
+*/
 .owl-prev,
 .owl-next {
   position: absolute;
@@ -178,7 +202,7 @@ img {
 
 /*
 ==========================================
-  counter Design
+           counter Design
 ==========================================
 */
 .counter-section {
@@ -203,7 +227,11 @@ img {
   font-weight: 500;
 }
 
-/* Our Services Section  */
+/* 
+=================================
+       Our Services Section  
+=================================
+*/
 #services {
   background-color: #edf7f1;
 }
@@ -238,7 +266,11 @@ img {
   margin-bottom: 12px;
 }
 
-/* OUR DIVERSIFIED TALENTS */
+/* 
+================================
+      OUR DIVERSIFIED TALENTS 
+================================
+*/
 .talent {
   position: relative;
 }
@@ -290,7 +322,11 @@ img {
   color: #fff;
 }
 
-/* Contact Details  */
+/* 
+==================================
+          Contact Details  
+==================================
+*/
 .contact-details {
   background-color: #fff;
   border: 1px solid #226638;
@@ -310,7 +346,11 @@ img {
 
 
 
-/* Footer  */
+/* 
+===================================
+            Footer  
+==================================
+*/
 .footer {
   background-color: #226638;
 }
@@ -336,7 +376,30 @@ img {
 }
 
 
+/* 
+=============================
+       About Page Banner  
+=============================
+*/
+.about-banner{
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/Backfilling.jpg);
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+   height: 50vh;
+}
 
+
+
+
+
+
+
+/* 
+==================================
+        Responsive Design 
+==================================
+*/
 
 @media (max-width: 767px) {
   .top-nav {
@@ -354,4 +417,6 @@ img {
     display: flex;
     flex-direction: column;
   }
+
+
 }
