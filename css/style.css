@@ -390,6 +390,9 @@ img {
 }
 
 
+.company-quality{
+  max-width: 70%;
+}
 
 
 
@@ -417,6 +420,8 @@ img {
     display: flex;
     flex-direction: column;
   }
-
+  .company-quality{
+    max-width: 100%;
+  }
 
 }
